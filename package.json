@@ -1,0 +1,62 @@
+{
+  "name": "zenrace-front",
+  "version": "1.0.0",
+  "description": "ZenRace Vue.js Frontend",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanboschi25/ZenRace-FRONT.git"
+  },
+  "keywords": [
+    "SAE",
+    "ZenRace"
+  ],
+  "author": "Nathan BOSCHI",
+  "contributors": [
+    {
+      "name": "Nathan BOSCHI",
+      "email": "nathan.boschi@edu.univ-fcomte.fr"
+    },
+    {
+      "name": "Thomas CHEVALIER",
+      "email": "thomas.chevalier@edu.univ-fcomte.fr"
+    },
+    {
+      "name": "Lucas DA SILVEIRA",
+      "email": "lucas.da_silveira@edu.univ-fcomte.fr"
+    },
+    {
+      "name": "Clément MENAUCOURT",
+      "email": "clement.menaucourt@edu.univ-fcomte.fr"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/nathanboschi25/ZenRace-FRONT/issues"
+  },
+  "homepage": "https://github.com/nathanboschi25/ZenRace-FRONT.git#readme",
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
